@@ -1,0 +1,15 @@
+h1{
+    background-color:darkblue;
+    color: white;
+    text-align:center;
+}
+table {
+    width: 100%; /* Define a largura da tabela */
+    border-collapse: collapse; /* Mescla as bordas das células */
+  }
+ th, tr{
+    text-align: center; /* Centraliza o texto nas células */
+    padding: 10px; /* Adiciona espaçamento interno */
+    border: 1px solid black; /* Define uma borda para as células */
+    background-color:rgb(18, 222, 230);
+  } 
