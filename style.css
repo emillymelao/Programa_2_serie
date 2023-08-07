@@ -1,15 +1,71 @@
-h1{
-    background-color:darkblue;
-    color: white;
-    text-align:center;
+
+header {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }
 table {
-    width: 100%; /* Define a largura da tabela */
-    border-collapse: collapse; /* Mescla as bordas das células */
+    width: 100%; 
+    border-collapse: collapse; 
   }
  th, tr{
-    text-align: center; /* Centraliza o texto nas células */
-    padding: 10px; /* Adiciona espaçamento interno */
-    border: 1px solid black; /* Define uma borda para as células */
-    background-color:rgb(18, 222, 230);
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
   } 
+  .fotocolegio{
+      width: 600px; 
+      height: 500px; 
+    }
+    .logo {
+      width: 200px;
+      height: 200px;
+      margin-right: 10px; 
+    }
+    
+    h2 {
+      font-size: 200%;
+      font-weight: bold;
+      text-align: center; 
+      height: 100px;
+    }
+    div{
+      text-align: center;
+      justify-content: center;
+    }
+  .content {
+      display: flex;
+      align-items: center; /* Alinha verticalmente o conteúdo */
+      text-align: center; 
+  }
+  
+  .fotocolegio {
+      width: 600px;
+      height: 500px;
+  }
+  
+  p {
+      flex: 1; /* Permite que o parágrafo ocupe o espaço restante */
+      padding: 20px; /* Adicione algum espaço entre a imagem e o texto */
+      font-size: 200%;
+  }
+  h3{
+    font-size: 200%;   
+    font-weight: bold;
+    margin-bottom: 10px; 
+    padding: 5% 0;
+  } 
+  .rodape{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+ body{
+  background: linear-gradient(to bottom, #00ffff, #001aff);
+  margin: 0;
+    
+ }  
+  
