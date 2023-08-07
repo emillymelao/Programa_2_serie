@@ -37,7 +37,7 @@ table {
     }
   .content {
       display: flex;
-      align-items: center; /* Alinha verticalmente o conteúdo */
+      align-items: center;
       text-align: center; 
   }
   
@@ -47,8 +47,8 @@ table {
   }
   
   p {
-      flex: 1; /* Permite que o parágrafo ocupe o espaço restante */
-      padding: 20px; /* Adicione algum espaço entre a imagem e o texto */
+      flex: 1; 
+      padding: 20px; 
       font-size: 200%;
   }
   h3{
